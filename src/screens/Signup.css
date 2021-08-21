@@ -1,0 +1,30 @@
+.signup {
+  width: 60%;
+  margin: 4rem 10rem 0 auto;
+  /* border: 1px solid black; */
+}
+
+.signup_body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
+}
+
+.signup_input input {
+  outline: none;
+  border: 0.1rem solid black;
+  padding: 0.4rem 0;
+  width: 100%;
+}
+
+.signup_input {
+  margin-bottom: 2rem;
+}
+
+.signup_ {
+  margin-top: 2rem;
+}
+
+span {
+  display: block;
+}

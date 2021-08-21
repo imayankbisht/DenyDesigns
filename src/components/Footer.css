@@ -1,0 +1,36 @@
+.footer {
+  margin: 4rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer_ul {
+  padding-left: 0;
+  width: 10rem;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  margin: 1rem 0;
+}
+
+.footer_input {
+  padding: 0.4rem;
+  outline: none;
+  width: 60%;
+}
+
+.footer_btn {
+  padding: 0.4rem;
+  background: black;
+  color: white;
+  outline: none;
+}

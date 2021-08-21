@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.8rem 4%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.nav_links {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+.nav_links li:first-child {
+  padding-left: 0;
+}
+
+.buttons {
+  margin-left: auto;
+}
+
+.buttons button {
+  border: none;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 27%;
+  }
+}
